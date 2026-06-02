@@ -1,54 +1,86 @@
 # Ex. No.   - PROTOTYPE PART MODEL DESIGN IN 3D PRINTER
 
-### DATE: 
+### Name: K S Vinay Suhirthan
+### Register Number:21222423005
+
+### DATE: 02-06-2026
+
 ## AIM: 
 ### To prototype the given part model design in 3D Printer.
 
 ## REQUIREMENTS:
 ### ●	3D Printer machine.
-### ●	CURA 4.0 Software.
 ### ●	Autodesk Fusion 360 Software.
 ### ●	System - Windows 7 or higher, 1 GB RAM.
 
 ## PROCEDURE:
 
-### Step 1:- Check all Electrical connections.
+Step 1: Create the Base Sketch
 
-### Step 2:- First we install the software related the 3D printer (idea maker, ultimaker etc.)In idea maker first open the software and click the open file option as shown in below figure.
+Open Fusion 360 and create a new sketch on the Top Plane.
+Draw an ellipse using the Center Ellipse tool and add dimensions.
+Finish the sketch after fully constraining the shape.
 
-![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/059ab4e7-f3fb-49a9-ba8e-12bdd082abef)
+Step 2: Extrude the Outer Body
 
-### Step 3:- select the Pan option and select the extruder (left of right) for printing the design and then after select the Repair option for auto correction of design of software parameter as shown in below figure.
+Select the ellipse profile and use the Extrude command.
+Extrude it upward to the required thickness of the enclosure.
+This forms the main outer body of the model.
 
-![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/835c55fd-6195-4d73-9f5c-4af36f5a4cce)
+Step 3: Create the Inner Cavity
 
-### Step 4.:- select the Move option for design print position in build tack plate and then after select the Rotate option for rotate the design easily printed and used low print material as shown in below figure.
+Start a new sketch on the top face of the body.
+Draw a smaller offset ellipse inside the outer boundary.
+Extrude-cut this profile downward, leaving a bottom thickness.
 
-![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/8736080c-f421-4dd0-bae8-860df6f3583e)
+Step 4: Sketch the Component Area
 
-### Step 5.:- select the Scale option for design scale according to build plate area and then after click the start option and select printing option standard as shown in below figure.
+Create a sketch on the cavity floor.
+Draw a rectangle representing the space for the electronic components.
+Position and dimension the rectangle accurately.
 
-![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/98458892-2f68-4de0-bec7-24959ec598fa)
+Step 5: Cut the Component Pocket
 
-### Step 6.:- After completing all settings then click the Slice option and export the file in gcode format.
+Select the rectangular profile and use Extrude Cut.
+Cut to the desired depth inside the enclosure.
+This creates the main mounting area for the components.
 
-![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/f4b8b55e-6cb2-46a7-b42c-180bc5e68668)
+Step 6: Add Supporting Walls
 
-![image](https://github.com/Sellakumar1987/Ex.-No.-8.-PROTOTYPE-PART-MODEL-DESIGN-IN-3D-PRINTER/assets/113594316/eafa933a-7e03-4f73-930d-75fb28d48716)
+Create sketches along the pocket edges.
+Draw small rectangular profiles for support walls and stoppers.
+Extrude them upward to hold the components securely.
 
-### Step 7.:- After generating the gcode format then follow the these instruction as shown in below figure.
-###   1.	Switch on the 3d printer.
-###   2.	Place your Pen drive in USB.
-###   3.	Clean the surface bed plate.
-###   4.	Load filament into the required extruder as per the requirement.
-###   5.	Wait until the nozzle & bed plate comes into the required temperature.
-###   6.	Close the doors of the 3d printer.
-###   7.	Open the file from the USB storage and select the Print option.
+Step 7: Create Side Notches
+
+Sketch small rectangles on the enclosure walls.
+Place them where wires or connectors need clearance.
+Use Extrude Cut to remove the material.
+
+Step 8: Design the Sliding Cover
+
+Create a new component and sketch a rectangle.
+Add inner cutouts and guiding edges similar to the image.
+Extrude the sketch to form the cover plate.
+
+Step 9: Create the Cross Support
+
+Sketch two perpendicular rectangles beneath the cover.
+Extrude them to form the cross-shaped support structure.
+Join the features into a single body.
+
+Step 10: Finish and Export
+
+Inspect all dimensions and check component fit.
+Apply fillets if smoother edges are required.
+Save the design and export it as STL or F3D for documentation and printing.
 
 ## Output:
 
-### Name:
-### Register Number:
+<img width="1600" height="818" alt="image" src="https://github.com/user-attachments/assets/fe9db9d0-39e1-4d19-98e0-5cf5a0ece7d8" />
+
+<img width="1449" height="636" alt="image" src="https://github.com/user-attachments/assets/b615bc74-6132-4bbc-ac62-6f21b8d73acb" />
+
 
 ## RESULT:
 ###   Thus a prototype of the given part model is developed using 3D Printer.
