@@ -15,49 +15,49 @@
 
 ## PROCEDURE:
 
-Step 1: Create the Base Sketch
+## Step 1: Create the Base Sketch
 
 Open Fusion 360 and create a new sketch on the Top Plane.
 Draw an ellipse using the Center Ellipse tool and add dimensions.
 Finish the sketch after fully constraining the shape.
 
-Step 2: Extrude the Outer Body
+## Step 2: Extrude the Outer Body
 
 Select the ellipse profile and use the Extrude command.
 Extrude it upward to the required thickness of the enclosure.
 This forms the main outer body of the model.
 
-Step 3: Create the Inner Cavity
+## Step 3: Create the Inner Cavity
 
 Start a new sketch on the top face of the body.
 Draw a smaller offset ellipse inside the outer boundary.
 Extrude-cut this profile downward, leaving a bottom thickness.
 
-Step 4: Sketch the Component Area
+## Step 4: Sketch the Component Area
 
 Create a sketch on the cavity floor.
 Draw a rectangle representing the space for the electronic components.
 Position and dimension the rectangle accurately.
 
-Step 5: Cut the Component Pocket
+## Step 5: Cut the Component Pocket
 
 Select the rectangular profile and use Extrude Cut.
 Cut to the desired depth inside the enclosure.
 This creates the main mounting area for the components.
 
-Step 6: Add Supporting Walls
+## Step 6: Add Supporting Walls
 
 Create sketches along the pocket edges.
 Draw small rectangular profiles for support walls and stoppers.
 Extrude them upward to hold the components securely.
 
-Step 7: Create Side Notches
+## Step 7: Create Side Notches
 
 Sketch small rectangles on the enclosure walls.
 Place them where wires or connectors need clearance.
 Use Extrude Cut to remove the material.
 
-Step 8: Design the Sliding Cover
+## Step 8: Design the Sliding Cover
 
 Create a new component and sketch a rectangle.
 Add inner cutouts and guiding edges similar to the image.
@@ -69,7 +69,7 @@ Sketch two perpendicular rectangles beneath the cover.
 Extrude them to form the cross-shaped support structure.
 Join the features into a single body.
 
-Step 10: Finish and Export
+## Step 10: Finish and Export
 
 Inspect all dimensions and check component fit.
 Apply fillets if smoother edges are required.
